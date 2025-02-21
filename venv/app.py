@@ -21,7 +21,7 @@ def index():
         else:
             category = "Obesity"
 
-    return render_template("inde.html", bmi=bmi, category=category)
+    return render_template("index.html", bmi=bmi, category=category)
 
 if __name__ == "__main__":
-    app.run(debug='True')
+    app.run(debug=True)
