@@ -22,6 +22,6 @@ def index():
             category = "Obesity"
 
     return render_template("index.html", bmi=bmi, category=category)
-port=int(os.environ.get("PORT",10000)
+port=int(os.environ.get("PORT",10000))
 if __name__ == "__main__":
-    app.run(host="0.0.0.0",port=port)
+    app.run(host='0.0.0.0')
